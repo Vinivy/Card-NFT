@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin:0;
+
+}
+
+/*cores usadas*/
+:root {
+  --cor01: hsl(215, 51%, 70%);
+  --cor02: hsl(178, 100%, 50%);
+  --cor03: hsl(217, 54%, 11%);
+  --cor04: hsl(216, 50%, 16%);
+  --cor05: hsl(215, 32%, 27%);
+  --cor06: hsl(0, 0%, 100%);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--cor03);
+  font-family: 'Outfit', sans-serif;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+body, main { 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*cartão*/
+
+main {
+  background-color: hsla(215, 55%, 10%, 0.651);
+  width: 320px;
+  height: 550px;
+  border-radius: 15px;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*conteudo*/
+#Visivel {
+  position: relative;
+  background-color: var(--cor04);
+  border-radius: 10px;
+}
+
+.img-NFT img {
+  margin: 20px 20px 0 20px;
+  height: 265px;
+  width: 285px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  
+}
+
+.EQL:hover {
+  cursor: pointer;
+  color: var(--cor02);
+}
+
+.one-conteudo h1{
+  padding: 5px 15px 0px 30px;
+  font-weight: 700;
+  color: var(--cor06);
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.one-conteudo p {
+  color:var(--cor01);
+  margin-left: 30px;
+}
+
+.two-conteudo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.ETH {
+  display: flex;
+  gap: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.ETH p {
+  color: var(--cor02);
+}
+
+.time-ETH {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.time-ETH p {
+  color: var(--cor01);
+}
+
+.linha {
+  position: relative;
+  display: flex;
+  border: 1px solid var(--cor01);
+  border-radius: 10px;
+  width: 277px;
+  margin: auto;
+}
+
+/*perfil do crador*/
+.perfil {
+ 
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  padding: 20px 10px 10px 25px;
+}
+
+.perfil img {
+  width: 12%;
+  padding-right: 10px;
+  
+}
+
+.p-1 {
+  color: var(--cor01);
+}
+
+
+.p-2 {
+ color: var(--cor06); 
+ cursor: pointer;
+}
+
+.p-2:hover {
+  color: var(--cor02);
+  transition: .05;
+}
+
+.perfil p {
+  font-weight: 400;
+  padding-right: 5px;
+}
