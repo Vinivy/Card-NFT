@@ -18,7 +18,7 @@ Um prejeto da plataforma Front-end Mentor, me ajuda bastande em resolver poblema
 <br>
 
 <p align="center">
-  <img alt="projeto Card NFT" src="" width="100%">
+  <img alt="projeto Card NFT" src="./Github/Tamplet-Nft.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Card NFT, é um prejeto com o intutio de lhe mostrar como NFt tem sua propria descrição sobre o seu ver!
 
-- [Acesse o projeto finalizado, online] ()
+- [Acesse o projeto finalizado, online] (https://vinivy.github.io/Card-NFT/)
 
 ## :memo: Licença
 
